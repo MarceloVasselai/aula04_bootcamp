@@ -37,14 +37,14 @@ bonus_valido: bool = False
 
 while not nome_valido:
     try:
-        nome = input("Digite seu nome: ")
+        nome = input("Digite seu nome : ")
 
         # Verifica se o nome está vazio
         if len(nome) == 0:
-            raise ValueError("O nome não pode estar vazio.")
+            raise ValueError("O nome não pode estar vazio. ")
         # Verifica se há números no nome
         elif any(char.isdigit() for char in nome):
-            raise ValueError("O nome não deve conter números.")
+            raise ValueError("O nome não deve conter números...")
         else:
             print("Nome válido:", nome)
             nome_valido = True
