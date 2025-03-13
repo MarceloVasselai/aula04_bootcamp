@@ -5,7 +5,7 @@
 
 # Sem Type Hint
 
-idade = 30
+idade = 31
 altura = 1.75
 nome = "Alice"
 is_estudante = True
